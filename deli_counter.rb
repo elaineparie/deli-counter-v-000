@@ -15,7 +15,7 @@ end
 
 def take_a_number(array, name)
 array << "#{name}"
-array.each.with_index(1) do |name, index|
+index = name.find_index
   puts "Welcome, #{name}. You are number #{index} in line."
   end
 end
