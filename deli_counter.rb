@@ -13,12 +13,16 @@ def line(array)
   end
 end
 
-def take_a_number(array, name)
-  array << "#{name}"
+#def take_a_number(array, name)
+  #array << "#{name}"
   #current_customer = []
 #  current_customer << "#{name}"
 #current_customer.each.with_index(1) do |name, index|
-array.reverse.each.with_index(1) do |name, index|
-puts "Welcome, #{name}. You are number #{index} in line."
-end
+#array.each.with_index(1) do |name, index|
+#puts "Welcome, #{name}. You are number #{index} in line."
+#end
+#end
+
+def take_a_number(katz_deli, name)
+  katz_deli.pop << "#{name}"
 end
