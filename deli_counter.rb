@@ -14,8 +14,9 @@ def line(array)
 end
 
 def take_a_number(array, name)
-    array.push("#{name}")
-  array.push.each.with_index(1) do |name, index|
-  puts "Welcome, #{name}. You are number #{index} in line."
+    current_customer = String.new
+    current_customer << "#{name}"
+  array.each.with_index(1) do |name, index|
+  puts "Welcome, #{current_customer}. You are number #{index} in line."
   end
 end
