@@ -14,6 +14,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
+  array << "#{name}"
   current_customer = []
   current_customer << "#{name}"
 current_customer.each.with_index(1) do |name, index|
