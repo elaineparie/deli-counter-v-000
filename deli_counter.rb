@@ -28,7 +28,9 @@ def take_a_number(array, name)
     current_customer << "#{name}"
     current_index = String.new
     current_index = current_customer.index
-  array each do |name|
+    count = 0
+  while count > 0
  puts "Welcome, #{current_customer}. You are number #{current_index} in line."
+ count += 1
  end
 end
