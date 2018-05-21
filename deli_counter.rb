@@ -13,16 +13,11 @@ def line(array)
   end
 end
 
-#def take_a_number(array, name)
-#  array << "#{name}"
-#array.each.with_index(1) do |name, index|
-#  puts "Welcome, #{name}. You are number #{index} in line."
-#end
-#end
-
 def take_a_number(array, name)
-  array.push("#{name}")
-  array.reverse.each do |name|
-    puts "Welcome, #{name}. You are number #{name.index} in line."
+array << "#{name}"
+array.each.with_index(1) do |name, index|
+  puts "Welcome, #{name}. You are number #{index} in line."
+  end
 end
-end
+
+
