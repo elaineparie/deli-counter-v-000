@@ -23,7 +23,7 @@ array << "#{name}"
     if array.length > 0
     puts "Currently serving #{array[0]}."
     array.shift
-  elsif 
+  elsif
     puts "There is nobody waiting to be served!"
   end
 end
