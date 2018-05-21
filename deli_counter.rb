@@ -19,4 +19,3 @@ index = name.find_index
   puts "Welcome, #{name}. You are number #{index} in line."
   end
 end
-end
