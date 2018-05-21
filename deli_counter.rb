@@ -34,3 +34,4 @@ def take_a_number(array, name)
  count += 1
  end
 end
+end
