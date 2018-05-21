@@ -25,5 +25,6 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push("#{name}")
+  index = katz_deli.index
   "Welcome, #{name}. You are number #{customer_index} in line."
 end
