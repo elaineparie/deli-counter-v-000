@@ -5,7 +5,7 @@ def line(array)
   customer_line = String.new
   if array.length > 0
     array.each.with_index(1) do |name, index|
-      customer_line
+      customer_line << "#{index}. #{name}"
     end
     puts "The line is currently: #{customer_line}"
   else
