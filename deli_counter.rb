@@ -25,4 +25,4 @@ def take_a_number(array, name)
   array.reverse.each do |name|
     puts "Welcome, #{name}. You are number #{name.index} in line."
 end
-
+end
