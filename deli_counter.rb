@@ -14,6 +14,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
+  array << "#{name}"
     current_customer = String.new
     current_customer << "#{name}"
   array.each.with_index(1) do |name, index|
