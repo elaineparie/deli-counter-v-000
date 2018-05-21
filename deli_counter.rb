@@ -13,11 +13,22 @@ def line(array)
   end
 end
 
+#def take_a_number(array, name)
+  #array << "#{name}"
+  #  current_customer = String.new
+  #  current_customer << "#{name}"
+#  array.each.with_index(1) do |name, index|
+#  puts "Welcome, #{current_customer}. You are number #{index} in line."
+#  end
+#end
+
 def take_a_number(array, name)
   array << "#{name}"
     current_customer = String.new
     current_customer << "#{name}"
-  array.each.with_index(1) do |name, index|
-  puts "Welcome, #{current_customer}. You are number #{index} in line."
-  end
+    current_index = String.new
+    current_index = current_customer.index
+  array each do |name|
+ puts "Welcome, #{current_customer}. You are number #{current_index} in line."
+ end
 end
