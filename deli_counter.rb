@@ -16,5 +16,5 @@ end
 
 def take_a_number(array, name)
 array << "#{name}"
-  puts "Welcome, #{name}. You are number #{name.find_ndex} in line."
+  puts "Welcome, #{name}. You are number #{name.find_index} in line."
   end
