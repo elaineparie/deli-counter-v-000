@@ -16,8 +16,10 @@ end
 def take_a_number(array, name)
   array << "#{name}"
     current_customer = String.new
+    current_index = String.new
+    current_index << array[-1]
     current_customer << "#{name}"
   array.each.with_index(1) do |name, index|
-  puts "Welcome, #{current_customer}. You are number #{index} in line."
+  puts "Welcome, #{current_customer}. You are number #{current_index} in line."
   end
 end
